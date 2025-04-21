@@ -53,10 +53,26 @@
 		<source src="elephant.mp3" type="audio/mP3">
 	</audio><br>
 	</td>
-</tr>
-</table>
-
-
-
-<?php echo date("Y-m-d") ?></body>
-</html>
+<td>
+ 				不要去臺灣<br>
+ 				<iframe src="https://www.youtube.com/embed/pW88QFpHXa8" allowfullscreen></iframe>
+ 			</td>
+ 		</tr>
+ 	</table>
+ 	<table>
+ 		<tr>
+ 			<td>
+ 				<iframe
+     				allow="microphone;"
+     				width="350"
+     				height="430"
+     				src="https://console.dialogflow.com/api-client/demo/embedded/d9496fd8-58a3-45b4-8307-7fd9847d18bc">
+ 				</iframe>
+ 			</td>
+ 		</tr>
+ 	</table>
+ 
+ </body>
+ <?php echo date("Y-m-d") ?>
+ 
+ </html>
